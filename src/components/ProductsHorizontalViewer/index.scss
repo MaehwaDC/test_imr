@@ -1,0 +1,11 @@
+.products-horizontal-viewer {
+  padding-left: 200px;
+
+  position: relative;
+
+  &__title {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

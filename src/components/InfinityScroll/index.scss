@@ -1,0 +1,9 @@
+.infinity-scroll {
+  max-width: 100%;
+  overflow: auto;
+
+  &__scroll {
+    display: inline-flex;
+    width: auto;
+  }
+}
