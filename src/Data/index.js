@@ -7,7 +7,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -23,7 +23,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'Французская раскладушк',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -39,7 +39,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -55,7 +55,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -71,7 +71,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -87,7 +87,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -103,7 +103,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -119,7 +119,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -135,7 +135,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -151,7 +151,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -167,7 +167,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -183,7 +183,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -199,7 +199,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -215,7 +215,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -231,7 +231,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -247,7 +247,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -263,7 +263,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -279,7 +279,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -295,7 +295,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
@@ -311,7 +311,7 @@ export const TEST_PRODUCTS_DATA = [
     color: 'Черный',
     material: 'Ткань',
     size: 'ш. 349 х в. 234 х г. 323',
-    mech: 'test-mech',
+    mech: 'Французская раскладушкa',
     saler: {
       name: 'test-name',
       refUrl: '#',
