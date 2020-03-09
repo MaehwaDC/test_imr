@@ -1,0 +1,16 @@
+@import '../../../styles/variables.scss';
+
+.rating {
+  display: flex;
+  align-items: center;
+  font-family: $secondary-font-family;
+  font-size: 15px;
+
+  &__stars-wrapper {
+    margin-right: 10px;
+  }
+
+  &__count {
+    font-weight: bold;
+  }
+}
