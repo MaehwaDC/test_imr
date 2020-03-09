@@ -13,7 +13,7 @@
     "react-scripts": "3.4.0",
     "sass-loader": "^8.0.2"
   },
-  "homepage": "http://maehwadc.github.io",
+  "homepage": "http://maehwadc.github.io/test_imr/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
