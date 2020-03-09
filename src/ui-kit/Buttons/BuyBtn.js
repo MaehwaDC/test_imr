@@ -6,7 +6,7 @@ import './styles/BuyBtn.scss';
 
 export const BuyBtn = ({ className, children, ...props }) => (
   <button className={classNames('buy-btn', className)} {...props}>
-    <img src="/images/cart.svg" alt="Buy" />
+    <img src="images/cart.svg" alt="Buy" />
     {children}
   </button>
 );

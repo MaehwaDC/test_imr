@@ -2,7 +2,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 1,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     color: 'Черный',
     material: 'Ткань',
@@ -16,7 +16,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 2,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -31,7 +31,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 3,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -46,7 +46,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 4,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -61,7 +61,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 5,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -76,7 +76,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 6,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -91,7 +91,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 7,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -106,7 +106,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 8,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -121,7 +121,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 9,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -136,7 +136,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 10,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -151,7 +151,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 11,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -166,7 +166,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 12,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -181,7 +181,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 13,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -196,7 +196,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 14,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -211,7 +211,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 15,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -226,7 +226,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 16,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -241,7 +241,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 17,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -256,7 +256,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 18,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -271,7 +271,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 19,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
@@ -286,7 +286,7 @@ export const TEST_PRODUCTS_DATA = [
   {
     id: 20,
     name: 'test-name',
-    imgUrl: '/images/product.svg',
+    imgUrl: 'images/product.svg',
     price: '5000',
     priceWithDiscount: '4500',
     color: 'Черный',
