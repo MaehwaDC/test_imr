@@ -28,20 +28,27 @@ class InfiniteScroll extends PureComponent {
     }
   }
 
+  /**
+   * scroll event handler
+   */
   onScrollHandler = e => {
     const { offset, hasMore } = this.props;
     const { scrollLeft, offsetWidth, scrollWidth } = e.target;
     const { isLoading } = this.state;
 
+    // scroll right side offset
     const scrollOffset = scrollWidth - offsetWidth - scrollLeft;
 
     if (
+      // check scroll position in props offset value relative right side
       offset > scrollWidth - offsetWidth - scrollLeft &&
+      // handle only right scrolling
       scrollOffset < this.currentOffset &&
       !isLoading &&
       hasMore
     ) {
       this.setState(
+        // set loading true and increase page by 1
         prevState => ({ page: prevState.page + 1, isLoading: true }),
         this.loadMore,
       );
@@ -50,6 +57,9 @@ class InfiniteScroll extends PureComponent {
     this.currentOffset = scrollOffset;
   };
 
+  /**
+   * loade more handele func
+   */
   loadMore = debounce(() => {
     const { onLoad } = this.props;
     const { page } = this.state;

@@ -13,6 +13,9 @@ class ProductsHorizontalViewer extends PureComponent {
     totalCount: 0,
   };
 
+  /**
+   * Render func for prod card
+   */
   rendreCard = data => <ProductCard key={data.id} {...data} />;
 
   componentDidMount() {
@@ -27,6 +30,9 @@ class ProductsHorizontalViewer extends PureComponent {
     }));
   };
 
+  /**
+   * titles array for title column
+   */
   titles = [
     'Рейтинг',
     'Цена',
@@ -36,6 +42,7 @@ class ProductsHorizontalViewer extends PureComponent {
     'Механизм',
     'Продавец',
   ];
+
   render() {
     const { data, totalCount } = this.state;
     const hasMore = data.length < totalCount;

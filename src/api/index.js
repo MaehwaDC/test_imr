@@ -1,21 +1,21 @@
 import { TEST_PRODUCTS_DATA } from '../Data';
 
 class Api {
-  async fetchData(page, pageSize) {
-    const startIndex = (page - 1) * pageSize;
-    const resData = TEST_PRODUCTS_DATA.slice(startIndex, startIndex + pageSize);
+  fetchData = (page, pageSize) =>
+    new Promise(resolve => {
+      setTimeout(() => {
+        const startIndex = (page - 1) * pageSize;
+        const data = TEST_PRODUCTS_DATA.slice(
+          startIndex,
+          startIndex + pageSize,
+        );
 
-    const data = await Promise.resolve(resData, res => {
-      setTimeout(() => {}, 1000);
-
-      return res;
+        resolve({
+          data,
+          totalCount: TEST_PRODUCTS_DATA.length,
+        });
+      }, 100);
     });
-
-    return {
-      data,
-      totalCount: TEST_PRODUCTS_DATA.length,
-    };
-  }
 }
 
 export default new Api();
