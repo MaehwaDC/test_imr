@@ -1,21 +1,24 @@
 @import '../../styles/variables';
 
 .products-horizontal-viewer {
-  padding-left: 204px;
-
   position: relative;
-
-  @media #{$mediaPfone} {
-    padding-left: 100px;
-  }
 
   &__title {
     position: absolute;
     left: 0;
+    background-color: transparent;
     top: 0;
 
     @media #{$mediaPfone} {
       width: 100px;
+    }
+  }
+
+  &__scroll {
+    padding-left: 204px;
+
+    @media #{$mediaPfone} {
+      padding-left: 100px;
     }
   }
 }

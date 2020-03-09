@@ -1,12 +1,12 @@
 @import '../../styles/variables';
 
 .product-card {
-  background-color: white;
   width: 204px;
   color: black;
   font-family: $primary-font-family;
   font-size: 12px;
   padding: 10px 0;
+  background-color: white;
 
   display: flex;
   justify-content: center;
@@ -29,6 +29,10 @@
       padding-top: 258px;
 
       &:hover {
+        background-color: unset;
+      }
+
+      .product-card__section {
         background-color: white;
       }
     }

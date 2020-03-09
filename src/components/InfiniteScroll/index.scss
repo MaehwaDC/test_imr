@@ -2,7 +2,12 @@
   max-width: 100%;
   overflow: auto;
 
-  &__scroll {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+
+  &__content {
     display: inline-flex;
     align-items: center;
     width: auto;
@@ -10,5 +15,22 @@
 
   &__spinner {
     margin: 0 15px;
+  }
+
+  &__shadow {
+    height: 100%;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+    &_right {
+      right: 0;
+      background-image: linear-gradient(
+        to left,
+        rgba(109, 117, 128, 0.15),
+        rgba(109, 117, 128, 0)
+      );
+    }
   }
 }

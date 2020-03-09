@@ -46,13 +46,19 @@ class ProductsHorizontalViewer extends PureComponent {
   render() {
     const { data, totalCount } = this.state;
     const hasMore = data.length < totalCount;
+
     return (
       <div className="products-horizontal-viewer">
-        <TitleColumn
-          titles={this.titles}
-          className="products-horizontal-viewer__title"
-        />
-        <InfiniteScroll startPage={1} hasMore={hasMore} onLoad={this.loadMore}>
+        <InfiniteScroll
+          className="products-horizontal-viewer__scroll"
+          startPage={1}
+          hasMore={hasMore}
+          onLoad={this.loadMore}
+        >
+          <TitleColumn
+            titles={this.titles}
+            className="products-horizontal-viewer__title"
+          />
           {data.map(this.rendreCard)}
         </InfiniteScroll>
       </div>
