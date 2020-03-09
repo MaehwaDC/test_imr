@@ -14,7 +14,7 @@ class Api {
           data,
           totalCount: TEST_PRODUCTS_DATA.length,
         });
-      }, 100);
+      }, 400);
     });
 }
 

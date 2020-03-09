@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import debounce from 'lodash.debounce';
 
 import Spinner from '../../ui-kit/Spinner';
 
@@ -60,11 +59,11 @@ class InfiniteScroll extends PureComponent {
   /**
    * loade more handele func
    */
-  loadMore = debounce(() => {
+  loadMore = () => {
     const { onLoad } = this.props;
     const { page } = this.state;
     onLoad(page);
-  }, 300);
+  };
 
   render() {
     const { children, hasMore } = this.props;
