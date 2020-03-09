@@ -7,10 +7,9 @@ import './styles/Star.scss';
 export const Star = ({ percentage, className }) => (
   <svg
     className={classNames('star', className)}
-    width="17"
+    width={17 * percentage}
     height="15"
-    viewBox="0 0 17 15"
-    fill="#000"
+    viewBox={`0 0 ${17 * percentage} 15`}
     xmlns="http://www.w3.org/2000/svg"
   >
     <path

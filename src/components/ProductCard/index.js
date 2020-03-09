@@ -20,6 +20,7 @@ class ProductCard extends PureComponent {
       mech,
       saler,
       className,
+      rating,
     } = this.props;
     return (
       <div className={classNames('product-card', className)}>
@@ -29,7 +30,11 @@ class ProductCard extends PureComponent {
           </div>
         )}
         <span className="product-card__name">{name}</span>
-        <Rating className="product-card__section" />
+        <Rating
+          className="product-card__section"
+          rating={rating}
+          maxRating={5}
+        />
         <div className="product-card__section product-card__price">
           {!priceWithDiscount ? (
             price
