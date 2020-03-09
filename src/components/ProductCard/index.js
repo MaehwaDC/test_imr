@@ -37,13 +37,13 @@ class ProductCard extends PureComponent {
         />
         <div className="product-card__section product-card__price">
           {!priceWithDiscount ? (
-            price
+            `${price} Р`
           ) : (
             <>
               <span className="product-card__price_red">
-                {priceWithDiscount}
+                {priceWithDiscount} Р
               </span>
-              <span className="product-card__price_old-price">{price}</span>
+              <span className="product-card__price_old-price">{price} Р</span>
             </>
           )}
         </div>
