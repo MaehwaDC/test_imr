@@ -1,6 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Delete row "homepage" in package.json in order to pictures working on localhost
+## Delete row "homepage" in package.json in order to pictures working on localhost
+
+link to gh pages http://maehwadc.github.io/test_imr/
 
 ## Available Scripts
 
