@@ -12,7 +12,7 @@
   justify-content: center;
   flex-direction: column;
 
-  * {
+  > * {
     padding: 0 10px;
   }
 
@@ -69,13 +69,21 @@
     height: 31px;
     width: 100%;
 
-    display: flex;
-    align-items: center;
+    line-height: 31px;
 
     font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
     &:nth-child(odd) {
       background-color: $secondary-background-color;
     }
+  }
+
+  &__btns-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
   }
 }

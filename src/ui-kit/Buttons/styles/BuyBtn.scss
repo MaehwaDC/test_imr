@@ -1,0 +1,16 @@
+.buy-btn {
+  background: #009900;
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 20px;
+  height: 35px;
+  color: white;
+
+  img {
+    margin-right: 10px;
+  }
+}

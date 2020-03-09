@@ -8,3 +8,14 @@ body {
 * {
   box-sizing: border-box;
 }
+
+button {
+  border: none;
+  background-color: unset;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}

@@ -11,7 +11,7 @@ export const TEST_PRODUCTS_DATA = [
     mech: 'test-mech',
     saler: {
       name: 'test-name',
-      refUrl: 'test-refUrl',
+      refUrl: '#',
     },
   },
   {
@@ -26,7 +26,7 @@ export const TEST_PRODUCTS_DATA = [
     mech: 'test-mech',
     saler: {
       name: 'test-name',
-      refUrl: 'test-refUrl',
+      refUrl: '#',
     },
   },
   {
@@ -41,7 +41,7 @@ export const TEST_PRODUCTS_DATA = [
     mech: 'test-mech',
     saler: {
       name: 'test-name',
-      refUrl: 'test-refUrl',
+      refUrl: '#',
     },
   },
   {
@@ -56,7 +56,7 @@ export const TEST_PRODUCTS_DATA = [
     mech: 'test-mech',
     saler: {
       name: 'test-name',
-      refUrl: 'test-refUrl',
+      refUrl: '#',
     },
   },
   {
@@ -71,7 +71,7 @@ export const TEST_PRODUCTS_DATA = [
     mech: 'test-mech',
     saler: {
       name: 'test-name',
-      refUrl: 'test-refUrl',
+      refUrl: '#',
     },
   },
   {
@@ -86,7 +86,7 @@ export const TEST_PRODUCTS_DATA = [
     mech: 'test-mech',
     saler: {
       name: 'test-name',
-      refUrl: 'test-refUrl',
+      refUrl: '#',
     },
   },
   {
@@ -101,7 +101,7 @@ export const TEST_PRODUCTS_DATA = [
     mech: 'test-mech',
     saler: {
       name: 'test-name',
-      refUrl: 'test-refUrl',
+      refUrl: '#',
     },
   },
   {
@@ -116,7 +116,7 @@ export const TEST_PRODUCTS_DATA = [
     mech: 'test-mech',
     saler: {
       name: 'test-name',
-      refUrl: 'test-refUrl',
+      refUrl: '#',
     },
   },
 ];

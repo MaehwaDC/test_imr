@@ -18,7 +18,7 @@ class ProductCard extends PureComponent {
       size,
       material,
       mech,
-      slaer,
+      saler,
       className,
     } = this.props;
     return (
@@ -38,10 +38,10 @@ class ProductCard extends PureComponent {
         <div className="product-card__section">{material}</div>
         <div className="product-card__section">{size}</div>
         <div className="product-card__section">{mech}</div>
-        <a href={slaer.refUrl} className="product-card__section">
-          {slaer.name}
-        </a>
-        <div>
+        <div className="product-card__section">
+          <a href={saler.refUrl}>{saler.name}</a>
+        </div>
+        <div className="product-card__btns-wrapper">
           <LikeBtn />
           <BuyBtn />
         </div>
@@ -68,7 +68,7 @@ ProductCard.propTypes = {
 ProductCard.defaultProps = {
   name: '',
   imageUrl: '',
-  slaer: {},
+  saler: {},
 };
 
 export default ProductCard;
