@@ -4,6 +4,11 @@
 
   &__scroll {
     display: inline-flex;
+    align-items: center;
     width: auto;
+  }
+
+  &__spinner {
+    margin: 0 15px;
   }
 }

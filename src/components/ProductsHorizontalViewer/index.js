@@ -10,6 +10,7 @@ import './index.scss';
 class ProductsHorizontalViewer extends PureComponent {
   state = {
     data: [],
+    totalCount: 0,
   };
 
   rendreCard = data => <ProductCard key={data.id} {...data} />;
@@ -19,9 +20,10 @@ class ProductsHorizontalViewer extends PureComponent {
   }
 
   loadMore = async page => {
-    const data = await Api.fetchData(page, 5);
+    const { data, totalCount } = await Api.fetchData(page, 5);
     this.setState(prevState => ({
       data: [...prevState.data, ...data],
+      totalCount,
     }));
   };
 
@@ -35,14 +37,15 @@ class ProductsHorizontalViewer extends PureComponent {
     'Продавец',
   ];
   render() {
-    const { data } = this.state;
+    const { data, totalCount } = this.state;
+    const hasMore = data.length < totalCount;
     return (
       <div className="products-horizontal-viewer">
         <TitleColumn
           titles={this.titles}
           className="products-horizontal-viewer__title"
         />
-        <InfiniteScroll startPage={1} onLoad={this.loadMore}>
+        <InfiniteScroll startPage={1} hasMore={hasMore} onLoad={this.loadMore}>
           {data.map(this.rendreCard)}
         </InfiniteScroll>
       </div>

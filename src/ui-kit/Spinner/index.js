@@ -1,9 +1,14 @@
 import React from 'react';
+import classNames from 'classnames';
 
 import './index.scss';
 
-const Spinner = () => (
-  <svg className="spinner" viewBox="0 0 50 50">
+const Spinner = ({ className, ...props }) => (
+  <svg
+    className={classNames('spinner', className)}
+    viewBox="0 0 50 50"
+    {...props}
+  >
     <circle
       className="path"
       cx="25"

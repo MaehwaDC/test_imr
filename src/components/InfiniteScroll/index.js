@@ -12,13 +12,26 @@ class InfiniteScroll extends PureComponent {
 
     this.state = {
       page: props.startPage,
+      isLoading: false,
     };
     this.currentOffset = 0;
   }
 
+  componentDidUpdate(prevProps) {
+    const { children, hasMore } = this.props;
+    const { isLoading } = this.state;
+    if (
+      isLoading &&
+      (children.length !== prevProps.children.length || !hasMore)
+    ) {
+      this.setState({ isLoading: false });
+    }
+  }
+
   onScrollHandler = e => {
-    const { offset, isLoading, hasMore } = this.props;
+    const { offset, hasMore } = this.props;
     const { scrollLeft, offsetWidth, scrollWidth } = e.target;
+    const { isLoading } = this.state;
 
     const scrollOffset = scrollWidth - offsetWidth - scrollLeft;
 
@@ -28,7 +41,10 @@ class InfiniteScroll extends PureComponent {
       !isLoading &&
       hasMore
     ) {
-      this.loadMore();
+      this.setState(
+        prevState => ({ page: prevState.page + 1, isLoading: true }),
+        this.loadMore,
+      );
     }
 
     this.currentOffset = scrollOffset;
@@ -36,24 +52,20 @@ class InfiniteScroll extends PureComponent {
 
   loadMore = debounce(() => {
     const { onLoad } = this.props;
-
-    this.setState(
-      prevState => ({ page: prevState.page + 1 }),
-      () => {
-        const { page } = this.state;
-        onLoad(page);
-      },
-    );
+    const { page } = this.state;
+    onLoad(page);
   }, 300);
 
   render() {
-    const { children, isLoading } = this.props;
-    console.log('isLoading', isLoading);
+    const { children, hasMore } = this.props;
+    const { isLoading } = this.state;
     return (
       <div className="infinity-scroll" onScroll={this.onScrollHandler}>
         <div className="infinity-scroll__scroll">
           {children}
-          {isLoading && <Spinner />}
+          {isLoading && hasMore && (
+            <Spinner className="infinity-scroll__spinner" />
+          )}
         </div>
       </div>
     );

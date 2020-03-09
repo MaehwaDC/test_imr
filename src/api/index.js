@@ -6,12 +6,15 @@ class Api {
     const resData = TEST_PRODUCTS_DATA.slice(startIndex, startIndex + pageSize);
 
     const data = await Promise.resolve(resData, res => {
-      setTimeout(() => {}, 100000000000);
+      setTimeout(() => {}, 1000);
 
       return res;
     });
 
-    return data;
+    return {
+      data,
+      totalCount: TEST_PRODUCTS_DATA.length,
+    };
   }
 }
 
