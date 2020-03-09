@@ -13,7 +13,7 @@ class ProductCard extends PureComponent {
       name,
       imgUrl,
       price,
-      sale,
+      priceWithDiscount,
       color,
       size,
       material,
@@ -31,11 +31,13 @@ class ProductCard extends PureComponent {
         <span className="product-card__name">{name}</span>
         <Rating className="product-card__section" />
         <div className="product-card__section product-card__price">
-          {!sale ? (
+          {!priceWithDiscount ? (
             price
           ) : (
             <>
-              <span className="product-card__price_red">{sale}</span>
+              <span className="product-card__price_red">
+                {priceWithDiscount}
+              </span>
               <span className="product-card__price_old-price">{price}</span>
             </>
           )}
@@ -60,7 +62,7 @@ ProductCard.propTypes = {
   name: PropTypes.string,
   imgUrl: PropTypes.string,
   price: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-  sale: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+  priceWithDiscount: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   color: PropTypes.string,
   material: PropTypes.string,
   size: PropTypes.string,
