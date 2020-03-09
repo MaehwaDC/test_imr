@@ -81,6 +81,25 @@
     }
   }
 
+  &__price {
+    font-family: $secondary-font-family;
+    font-size: 18px;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: space-between;
+
+    &_red {
+      color: $red-font-color;
+    }
+
+    &_old-price {
+      font-size: 14px;
+      color: $disabled-font-color;
+      text-decoration: line-through;
+    }
+  }
+
   &__btns-wrapper {
     display: flex;
     justify-content: space-between;

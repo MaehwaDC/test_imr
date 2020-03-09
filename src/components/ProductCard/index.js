@@ -31,8 +31,14 @@ class ProductCard extends PureComponent {
         <span className="product-card__name">{name}</span>
         <Rating className="product-card__section" />
         <div className="product-card__section product-card__price">
-          {sale || price}
-          {sale && <span>{price}</span>}
+          {!sale ? (
+            price
+          ) : (
+            <>
+              <span className="product-card__price_red">{sale}</span>
+              <span className="product-card__price_old-price">{price}</span>
+            </>
+          )}
         </div>
         <div className="product-card__section">{color}</div>
         <div className="product-card__section">{material}</div>

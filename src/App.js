@@ -1,7 +1,5 @@
 import React, { PureComponent } from 'react';
 
-import { TEST_PRODUCTS_DATA } from './Data';
-
 import ProductsHorizontalViewer from './components/ProductsHorizontalViewer';
 import PageLayout from './components/Layout';
 
@@ -12,7 +10,7 @@ class App extends PureComponent {
     return (
       <main>
         <PageLayout>
-          <ProductsHorizontalViewer data={TEST_PRODUCTS_DATA} />
+          <ProductsHorizontalViewer />
         </PageLayout>
       </main>
     );
