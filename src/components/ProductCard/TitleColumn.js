@@ -5,7 +5,7 @@ import { random } from '../../utils/helpers';
 
 class TitleColumn extends PureComponent {
   renderTitle = title => (
-    <div key={random} className="product-card__section">
+    <div key={random()} className="product-card__section">
       {title}
     </div>
   );

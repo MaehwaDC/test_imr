@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 
-import InfinityScroll from '../InfinityScroll';
+import InfiniteScroll from '../InfiniteScroll';
 import ProductCard from '../ProductCard';
 import TitleColumn from '../ProductCard/TitleColumn';
 
@@ -26,7 +26,7 @@ class ProductsHorizontalViewer extends PureComponent {
           titles={this.titles}
           className="products-horizontal-viewer__title"
         />
-        <InfinityScroll>{data.map(this.rendreCard)}</InfinityScroll>
+        <InfiniteScroll>{data.map(this.rendreCard)}</InfiniteScroll>
       </div>
     );
   }

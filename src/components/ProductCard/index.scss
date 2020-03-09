@@ -18,6 +18,10 @@
 
   &:hover {
     background-color: rgba(255, 188, 0, 0.1);
+
+    .product-card__image-wrapper {
+      background-color: transparent;
+    }
   }
 
   &_theme {
@@ -25,7 +29,7 @@
       padding-top: 258px;
 
       &:hover {
-        background-color: unset;
+        background-color: white;
       }
     }
   }
